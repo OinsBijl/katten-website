@@ -1,0 +1,37 @@
+<html lang="nl">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Enzo's Katten Winkel</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<header>
+			<h1>Contact</h1>
+		</header>
+		<nav>
+			<a href="main.html">Home</a>
+			<a href="sub1.html">Menukaart</a>
+			<a href="sub2.html">Kattenrassen</a>
+			<a href="sub3.html"><b><u>Contact</u></b></a>
+		</nav>
+		<main>
+			<div id="wrapper">
+				<h2>Contact opnemen</h2>
+				<form onsubmit="alert('Bedankt voor uw bericht!'); this.reset(); return false;">
+					<label for="name">Naam:</label>
+					<input type="text" id="name" name="name" required placeholder="Jouw naam" />
+					<label for="email">E-mail:</label>
+					<input type="email" id="email" name="email" required placeholder="Jouw e-mail" />
+					<label for="message">Bericht:</label>
+					<textarea id="message" name="message" rows="5" required placeholder="Schrijf hier je bericht"></textarea>
+					<button type="submit">Verstuur</button>
+				</form>
+				<p>Of bel ons op: 06-xxxx-xxxx</p>
+			</div>
+		</main>
+		<footer>
+			<p>&copy; 2025 Enzo's Katten Winkel</p>
+		</footer>
+	</body>
+</html>
