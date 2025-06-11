@@ -213,3 +213,86 @@ Bewerken
   <p>&copy; 2025 Enzo's Katten Winkel</p>
 </footer>
 Tekst met jaartal en naam van de winkel.
+
+Pagina-instellingen
+html
+Kopiëren
+Bewerken
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enzo's Katten Winkel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+De website is in het Nederlands.
+
+Titel: Enzo's Katten Winkel (staat in je browser-tab).
+
+Laadt een stijlbestand (CSS) voor kleuren en opmaak.
+
+Titel bovenaan de pagina
+html
+Kopiëren
+Bewerken
+<header>
+  <h1>Contact</h1>
+</header>
+Grote titel: Contact
+
+Menu (navigatiebalk)
+html
+Kopiëren
+Bewerken
+<nav>
+  <a href="index.html">Home</a>
+  <a href="sub1.html">Menukaart</a>
+  <a href="sub2.html">Kattenrassen</a>
+  <a href="sub3.html"><b><u>Contact</u></b></a>
+</nav>
+Menu met links naar andere pagina's.
+
+Contact is vet en onderstreept → je zit nu op die pagina.
+
+Inhoud van de pagina
+html
+Kopiëren
+Bewerken
+<main>
+  <div id="wrapper">
+    <h2>Stuur ons een bericht!</h2>
+    <p>Heb je vragen of suggesties? Neem contact met ons op via een van de onderstaande manieren.</p>
+    <ul>
+      <li><a href="https://www.instagram.com/">Instagram</a></li>
+      <li><a href="https://nl-nl.facebook.com/">Facebook</a></li>
+      <li><a href="https://mail.google.com/">Email</a></li>
+      <li>Telefoon: 06-12345678</li>
+    </ul>
+  </div>
+</main>
+Titel: Stuur ons een bericht!
+
+Korte uitleg over contact opnemen.
+
+Lijstje met:
+
+Link naar Instagram
+
+Link naar Facebook
+
+Link naar E-mail
+
+Telefoonnummer
+
+Onderkant (footer)
+html
+Kopiëren
+Bewerken
+<footer>
+  <p>&copy; 2025 Enzo's Katten Winkel</p>
+</footer>
+Copyright
+
+Jaar: 2025
+
+Naam van de winkel
