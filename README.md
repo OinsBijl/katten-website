@@ -299,3 +299,187 @@ Copyright
 Jaar: 2025
 
 Naam van de winkel
+
+# style
+Achtergrond van de pagina
+css
+Kopiëren
+Bewerken
+body {
+   background-image: url('ak.png');
+}
+De achtergrond van de pagina krijgt een afbeelding: ak.png.
+
+Standaard instellingen voor alles
+css
+Kopiëren
+Bewerken
+* {
+  box-sizing: border-box;
+}
+Zorgt ervoor dat padding en borders netjes binnen elk element blijven. Handig voor opmaak.
+
+Algemene stijlen voor de pagina
+css
+Kopiëren
+Bewerken
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #fffabe;
+  color: #333;
+}
+Lettertype: Arial
+
+Tekstkleur: donkergrijs
+
+Achtergrondkleur: lichtgeel
+
+Ruimte rondom de pagina: 20px
+
+Opmerking: Er zijn twee body-regels in de code. De laatste telt — dus background-image wordt overschreven door background-color: #fffabe.
+
+Header (bovenste balk)
+css
+Kopiëren
+Bewerken
+header {
+  background-color: #0368ff; /* blauw */
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+Blauwe achtergrond
+
+Witte tekst
+
+Tekst staat in het midden
+
+Ruimte rondom de tekst
+
+Titel in de header
+css
+Kopiëren
+Bewerken
+header h1 {
+  margin: 0;
+}
+Geen extra ruimte boven/onder de koptekst
+
+Hoofdinhoud (main)
+css
+Kopiëren
+Bewerken
+main {
+  margin-top: 20px;
+  padding: 20px;
+}
+Ruimte bovenaan en binnenin het hoofdgedeelte
+
+Container
+css
+Kopiëren
+Bewerken
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+Zet elementen naast elkaar (met flexbox)
+
+Verdeling met ruimte ertussen
+
+Navigatiebalk
+css
+Kopiëren
+Bewerken
+nav {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+Menu staat in het midden
+
+Links krijgen ruimte ertussen en zijn vetgedrukt
+
+Als je met je muis over een link gaat: onderstreept
+
+Lijstjes & formulieren
+css
+Kopiëren
+Bewerken
+ul {
+  padding-left: 20px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 6px;
+  margin-top: 4px;
+  font-size: 1rem;
+}
+Lijstjes krijgen inspringing
+
+Formulieren zijn netjes uitgelijnd en volledige breedte
+
+Knoppen
+css
+Kopiëren
+Bewerken
+button {
+  margin-top: 15px;
+  background-color: #0368ff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: #0051c9;
+}
+Blauwe knop, witte tekst
+
+Geen rand
+
+Als je erover zweeft: donkerblauw
+
+Wrapper (centrale inhoud)
+css
+Kopiëren
+Bewerken
+#wrapper {
+  width: 1200px;
+  margin: auto;
+}
+Inhoud staat in het midden van de pagina
+
+Maximale breedte: 1200px
+
+Samenvatting:
+Deze CSS regelt:
+
+Achtergrond, kleuren, lettertype
+
+Opmaak van header, navigatie, knoppen, formulieren
+
+Flexibele indeling met .container
+
+Centrale layout met #wrapper
