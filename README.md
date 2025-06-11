@@ -75,7 +75,7 @@ Bewerken
 </footer>
 Laat copyright zien.
 
-#sub1
+# sub1
 
 Begin van de pagina
 html
@@ -136,7 +136,7 @@ Laat zien dat de menukaartpagina nog niet af is.
 
 Gekke opmerking: pas klaar in het jaar 3000.
 
-#sub2
+# sub2
 
 Pagina-info bovenaan
 html
