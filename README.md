@@ -74,3 +74,64 @@ Bewerken
   <p>&copy; 2025 Enzo's Katten Winkel</p>
 </footer>
 Laat copyright zien.
+
+#sub2
+
+Begin van de pagina
+html
+Kopiëren
+Bewerken
+<html lang="nl">
+De website is in het Nederlands.
+
+Informatie over de pagina (in <head>)
+html
+Kopiëren
+Bewerken
+<head>
+  <title>Enzo's katten winkel</title>
+  <link rel="stylesheet" href="style.css">
+  <meta ...>
+</head>
+Titel van de pagina (bovenin je browser).
+
+Stijlblad voor kleuren/opmaak.
+
+Extra info over de site (auteur, zoekwoorden, omschrijving).
+
+Bovenaan de pagina
+html
+Kopiëren
+Bewerken
+<header>
+  <h1>Menukaart</h1>
+</header>
+Laat groot zien: "Menukaart".
+
+Menu om te klikken
+html
+Kopiëren
+Bewerken
+<nav>
+  <a href="index.html">Home</a>
+  <a href="sub1.html"><b><u>Menukaart</u></b></a>
+  <a href="sub2.html">Kattenrassen</a>
+  <a href="sub3.html">Contact</a>
+</nav>
+Navigatieknoppen naar andere pagina’s.
+
+Menukaart is vetgedrukt en onderstreept (actieve pagina).
+
+De zichtbare inhoud
+html
+Kopiëren
+Bewerken
+<body>
+  <div id="wrapper">
+    <h2>Binnenkort beschikbaar</h2>
+    <p>Deze pagina is verwacht af te zijn in het jaar 3000</p>
+  </div>
+</body>
+Laat zien dat de menukaartpagina nog niet af is.
+
+Gekke opmerking: pas klaar in het jaar 3000.
