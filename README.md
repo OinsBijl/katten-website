@@ -75,7 +75,7 @@ Bewerken
 </footer>
 Laat copyright zien.
 
-#sub2
+#sub1
 
 Begin van de pagina
 html
@@ -135,3 +135,81 @@ Bewerken
 Laat zien dat de menukaartpagina nog niet af is.
 
 Gekke opmerking: pas klaar in het jaar 3000.
+
+#sub2
+
+Pagina-info bovenaan
+html
+Kopiëren
+Bewerken
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enzo's Katten Winkel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+De pagina is in het Nederlands.
+
+Titel: Enzo's Katten Winkel (dit zie je in het tabblad).
+
+Laadt een stijlblad voor de opmaak (style.css).
+
+De kop van de pagina
+html
+Kopiëren
+Bewerken
+<header>
+  <h1>Kattenrassen</h1>
+</header>
+Grote titel bovenaan: Kattenrassen.
+
+Navigatie (menu)
+html
+Kopiëren
+Bewerken
+<nav>
+  <a href="index.html">Home</a>
+  <a href="sub1.html">Menukaart</a>
+  <a href="sub2.html"><b><u>Kattenrassen</u></b></a>
+  <a href="sub3.html">Contact</a>
+</nav>
+Klikmenu naar andere pagina’s.
+
+“Kattenrassen” is vet en onderstreept (actieve pagina).
+
+Hoofdinhoud van de pagina
+html
+Kopiëren
+Bewerken
+<main>
+  <div id="wrapper">
+    <h2>Onze Populaire Kattenrassen</h2>
+    <ul> ... </ul>
+    <p>Wil je een ras die hier niet staat? Laat het ons weten!</p>
+  </div>
+</main>
+Titel: Onze Populaire Kattenrassen
+
+Lijst van kattenrassen met korte uitleg:
+
+Europese korthaar
+
+Maine Coon
+
+Brits korthaar
+
+Siberische kat
+
+Chinese naaktkat
+
+Tekst onderaan: “Ken je een ander ras? Laat het weten!”
+
+Voettekst (onderaan)
+html
+Kopiëren
+Bewerken
+<footer>
+  <p>&copy; 2025 Enzo's Katten Winkel</p>
+</footer>
+Tekst met jaartal en naam van de winkel.
